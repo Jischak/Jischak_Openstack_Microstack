@@ -22,7 +22,7 @@ Layanan/service Openstack yang didapatkan setelah pemasangan microstack.
 2. Glance: Layanan image
 3. Neutron: Layanan Jaringan
 4. Nova: Layanan Komputasi
-5. Placement
+5. Horizon: Layanan Dashboard
 
 Layanan-layanan Openstack yang tidak tercantum diatas, dapat dipasang secara manual.
 Dengan catatan, memperhatikan layanan-layanan yang hanya tersedia pada microstack 
