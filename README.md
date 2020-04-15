@@ -1,7 +1,7 @@
 # Openstack_Microstack_Jischak
 Microstack merupakan platform yang disediakan Canonical untuk memudahkan pemasangan Openstack pada Ubuntu.
 
-# Minimal perangkat untuk memasangkan microstack
+# Minimal spesifikasi perangkat untuk pemasangan Microstack
 - RAM: 4GB (Rekomendasi 8GB)
 - HDD: 100 GB
 - CPU: 2 core
@@ -16,7 +16,7 @@ untuk membuat beberapa cluster. Saya menyediakan 3 server dengan masing-masing s
 - HDD: 100GB
 - CPU: 2 core
 
-# Layanan-layanan Openstack pada microstack
+# Layanan-layanan Openstack pada Microstack
 Layanan/service Openstack yang didapatkan setelah pemasangan microstack. 
 1. Keystone: Layanan identitas
 2. Glance: Layanan image
@@ -33,8 +33,11 @@ File-file konfigurasi Openstack terdapat pada: /var/snap/microstack/common/etc
 
 # File-file penting pada Openstack:
 1) File untuk otentitaski agar pengguna dapat masuk ke Openstack: microstack.rc
+
 Lokasi: /var/snap/microstack/common/etc/microstack.rc
+
 2) File-file image yang diupload (create) ke repositiry glance
+
 Lokasi: /var/snap/microstack/common/lib/images
 
 
