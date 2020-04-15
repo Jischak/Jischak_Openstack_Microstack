@@ -32,7 +32,7 @@ di link berikut ini: https://microstack.run/.
 File-file konfigurasi Openstack terdapat pada: /var/snap/microstack/common/etc
 
 # File-file penting pada Openstack:
-1) File untuk otentitaski agar pengguna dapat masuk ke Openstack: microstack.rc
+1) File untuk otentikasi agar pengguna dapat masuk ke Openstack: microstack.rc
 
 Lokasi: /var/snap/microstack/common/etc/microstack.rc
 
